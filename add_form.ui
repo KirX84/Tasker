@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Add_form</class>
+ <widget class="QWidget" name="Add_form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>151</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="taskLabel">
+   <property name="geometry">
+    <rect>
+     <x>47</x>
+     <y>45</y>
+     <width>47</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Задача</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="taskEdit">
+   <property name="geometry">
+    <rect>
+     <x>87</x>
+     <y>42</y>
+     <width>113</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dateLabel">
+   <property name="geometry">
+    <rect>
+     <x>207</x>
+     <y>45</y>
+     <width>47</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Дата</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>39</y>
+     <width>110</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="timeLabel">
+   <property name="geometry">
+    <rect>
+     <x>47</x>
+     <y>77</y>
+     <width>111</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Продолжительность</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="timeEdit">
+   <property name="geometry">
+    <rect>
+     <x>157</x>
+     <y>77</y>
+     <width>118</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveButton">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>120</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CancelButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>120</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Отмена</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
